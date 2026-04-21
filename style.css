@@ -1,0 +1,22 @@
+body {
+  background: #0f172a;
+  color: #fff;
+  font-family: system-ui;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+.card:hover { border-color: #8b5cf6; transform: scale(1.05); }
+h1 { background: linear-gradient(90deg, #8b5cf6, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+button { background: #8b5cf6; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+.active { background: #3b82f6; }
